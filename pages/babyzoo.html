@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Zoo</title>
+        <!-- CDN boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- cdn font-awaesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet"> 
+    <!-- embed css -->
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Quicksand", sans-serif;
+        }
+
+        .judul-besar {
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+        <header class="mt-0 pt-0" 
+    style="background-image: url(../src/assets/baby-zoo.jpg); 
+    height: 656px; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;">
+
+        <div class="mt-0 ">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg rounded p-2 container fixed-top" style="background-color: antiquewhite;">
+                <div class="container-fluid">
+
+                    <i class="fa-solid fa-dove"></i> 
+                    <a class="navbar-brand ps-1" href="#">Taman Safari</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+                        <ul class="navbar-nav me-3 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Animals
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-paw"></i> Baby Zoo</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-crow"></i> Kubah Burung</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dragon"></i> Komodo Island</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Things To Do
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-sun"></i> Safari Siang</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-car-side"></i> Safari Trek</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-moon"></i> Safari Malam</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-outline-success" onclick="window.location.href='pages/login.html'">Login</button>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <main style="background-color: rgb(222, 227, 225);">
+        <section class="container d-flex justify-content-center align-items-center flex-column p-5 w-75 text-success">
+            <!-- paragraf information -->
+            <div class="paragraf d-flex justify-content-center align-items-center flex-column mb-3">
+            <p class="fw-bolder fs-1">Baby Zoo Destinasi Seru di Taman Safari Bogor</p>
+            <p>Nikmati pengalaman tak terlupakan di Baby Zoo, Taman Safari Bogor! Di sini, Anda dan keluarga dapat berinteraksi langsung dengan berbagai satwa lucu dan menggemaskan. Baby Zoo menawarkan kesempatan unik untuk lebih dekat dengan satwa – satwa seperti serval, binturong, ular, burung dan banyak lagi.</p>
+            <p class="fw-bold fs-4">Australian Outback: Destinasi Seru di Taman Safari Bogor</p>
+            <p>Rasakan petualangan seru di Australian Outback, Taman Safari Bogor! Di sini, Anda dan keluarga dapat menjelajahi keindahan alam Australia dan bertemu dengan satwa khas seperti kanguru. Australian Outback menawarkan pengalaman unik yang menggabungkan edukasi dan hiburan. Pelajari lebih banyak tentang habitat mereka dan upaya konservasi yang dilakukan oleh Taman Safari Indonesia. Serta Ikuti berbagai aktivitas menarik yang dirancang untuk mengedukasi dan menghibur pengunjung dari segala usia.</p>
+            <p class="fw-bold fs-4">Big Cat Zone: Destinasi Seru di Taman Safari Bogor</p>
+            <p>Selamat datang di Big Cat Zone, Taman Safari Bogor! Di sini, Anda dan keluarga dapat menjelajahi dunia satwa liar yang menakjubkan dan bertemu dengan berbagai jenis kucing besar seperti Puma, Kucing Emas, Jaguar, Macan Tutul, dan masih banyak lagi. Big Cat Zone menawarkan pengalaman yang mendebarkan dan edukatif bagi pengunjung dari segala usia.</p>
+            <p class="fw-bold fs-4">Photo With Animals: Destinasi Pilihan Keluarga di Puncak</p>
+            <p>Abadikan momen spesial Anda bersama keluarga di “Photo With Animals”, Taman Safari Bogor! Di sini, Anda dapat berfoto dengan berbagai satwa eksotis dan menggemaskan yang akan membuat liburan Anda semakin berkesan. Destinasi ini menawarkan pengalaman unik yang menggabungkan keseruan dan edukasi.</p>
+            <p class="fw-bold fs-4">White Lion: Destinasi Seru di Jawa Barat</p>
+            <p>Selamat datang di White Lion, Taman Safari Bogor! Di sini, Anda dan keluarga dapat menyaksikan keanggunan dan keunikan harimau putih yang langka. Nikmati momen spesial saat memberi makan singa putih dan saksikan bagaimana mereka berinteraksi dengan penjaga mereka.</p>
+        </div>
+        <!-- images -->
+        <img  class="w-100" src="../src/assets/baby-zoo-images.png" alt="babyzoo-images">
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-success">
+        <div class="container text-light p-3">Copyright Kelompok Pipas Pariwisata &copy;2025</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="src/script/script.js"></script>
+</body>
+</html>
