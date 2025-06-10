@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Safari Siang | Taman Safari Bogor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background-image: url('/src/assets/safari-siang.webp');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      position: relative;
+      color: white;
+    }
+    .hero-overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .hero-text {
+      position: relative;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg rounded p-2 container fixed-top" style="background-color: antiquewhite;">
+                <div class="container-fluid">
+
+                    <i class="fa-solid fa-dove"></i> 
+                    <a class="navbar-brand ps-1" href="#">Taman Safari</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+                        <ul class="navbar-nav me-3 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Animals
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="pages/babyzoo.html"><i class="fa-solid fa-paw"></i> Baby Zoo</a></li>
+                                    <li><a class="dropdown-item" href="pages/kubahburung.html"><i class="fa-solid fa-crow"></i> Kubah Burung</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dragon"></i> Komodo Island</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Things To Do
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-sun"></i> Safari Siang</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-car-side"></i> Safari Trek</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-moon"></i> Safari Malam</a></li>
+                                </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-outline-success" onclick="window.location.href='pages/login.html'">Login</button>
+                </div>
+              </nav>
+
+<!-- Hero Section -->
+<div class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-text">
+    <h1 class="display-4 fw-bold">Safari Siang</h1>
+    <p class="lead">Petualangan seru bersama satwa liar dari berbagai belahan dunia.</p>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="container py-5">
+  <h2 class="mb-4 text-success fs-1 fw-bolder text-center">Safari Siang</h2>
+  <p class="text-center">
+    Rasakan pengalaman luar biasa lebih dekat dengan alam liar dalam program Safari Siang. Perjalanan anda akan diawali dengan berpetualang selama 45 menit menggunakan kendaraan anda dalam Safari Tour. Selanjutnya anda dapat menikmati lebih dari 20 wahana permainan, 7 exhibit satwa, serta 9 pertunjukan di area rekreasi kami. Anda juga dapat mengunjungi air terjun, dan jangan khawatir dengan persoalan makan karena kami memiliki banyak pilihan untuk anda.
+  </p>
+
+  <h3 class="mt-5">Harga Tiket</h3>
+  <table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+      <tr>
+        <th>Kategori</th>
+        <th>WNI (Weekday)</th>
+        <th>WNI (Weekend)</th>
+        <th>WNA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dewasa</td>
+        <td>Rp 230.000</td>
+        <td>Rp 250.000</td>
+        <td>Rp 400.000</td>
+      </tr>
+      <tr>
+        <td>Anak-anak</td>
+        <td>Rp 200.000</td>
+        <td>Rp 220.000</td>
+        <td>Rp 350.000</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="row g-3 mt-3">
+    <div class="col-md-4">
+      <img src="/src/assets/SAFARI-SIANG-REGULER.webp" class="img-fluid rounded" alt="Safari 1">
+    </div>
+    <div class="col-md-4">
+      <img src="/src/assets/SAFARI-SIANG-PREMIUM.webp" class="img-fluid rounded" alt="Safari 2">
+    </div>
+    <div class="col-md-4">
+      <img src="/src/assets/INTERNATIONAL-DAN-KENDARAAN.webp" class="img-fluid rounded" alt="Safari 3">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-success">
+    <div class="container text-light p-3">Copyright Kelompok Pipas Pariwisata &copy;2025</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
